@@ -12,7 +12,8 @@
       <script src="Scripts/angular/angular.js"></script>
       <script src="Scripts/angular/angular-animate.js"></script>
       <script src="Scripts/Controller/controller.js"></script>
-      <script src="Scripts/chart.js"></script>
+      <script src="Scripts/highcharts.js"></script>
+   
    </head>
    <body class="Banners" ng-controller="CVCtrl">
       <!--<div id="overlay"></div>
@@ -33,15 +34,9 @@
                 <h1>My skills</h1>
                  <table >
                <tr>
-                  <td class="" id=""><p class="data-attributes">
-  <span data-peity='{ "fill": ["red", "#eeeeee"],    "innerRadius": 10, "radius": 40 }'>1/7</span>
-  <span data-peity='{ "fill": ["orange", "#eeeeee"], "innerRadius": 14, "radius": 36 }'>2/7</span>
-  <span data-peity='{ "fill": ["yellow", "#eeeeee"], "innerRadius": 16, "radius": 32 }'>3/7</span>
-  <span data-peity='{ "fill": ["green", "#eeeeee"],  "innerRadius": 18, "radius": 28 }'>4/7</span>
-  <span data-peity='{ "fill": ["blue", "#eeeeee"],   "innerRadius": 20, "radius": 24 }'>5/7</span>
-  <span data-peity='{ "fill": ["indigo", "#eeeeee"], "innerRadius": 18, "radius": 20 }'>6/7</span>
-  <span data-peity='{ "fill": ["violet", "#eeeeee"], "innerRadius": 15, "radius": 16 }'>7/7</span>
-</p></div></td>
+                  <td class="" id="">
+ <div id="dotNet" style="width: 70vh; height: 70vh; margin: 0 auto"></div>
+</div></td>
                   <td class="" id=""></td>
                </tr>
                <tr>
@@ -89,8 +84,7 @@
          <div id="next" ng-show="hoverEditNext" ><span class="glyphicon myglif glyphicon-menu-right"></span></div>
          </div>-->
       </div>
-      <script>
-        $(".data-attributes span").peity('donut')
-      </script>
+   <script src="Scripts/navigate.js"></script>
+   <script src="Scripts/semi-donut.js"></script>
    </body>
 </html>

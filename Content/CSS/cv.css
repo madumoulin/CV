@@ -145,33 +145,6 @@ p {
     margin-left: 15%;
     margin-top: 73%;
 }
-#up.arrow {
-    width: 15%;
-    border-top: 8em solid black;
-    border-bottom-right-radius: 49% 50%;
-    border-bottom-left-radius: 49% 50%;
-    opacity: 0.2;
-    position: absolute;
-    left: 42.5%;
-    top: 3%;
-}
-#left.arrow {
-    width: 6%;
-    border-top: 17.5em solid transparent;
-    border-top-right-radius: 49% 50%;
-    border-bottom-right-radius: 49% 50%;
-    top: 10%;
-    left: 39%;
-}
-#right.arrow {
-    width: 26%;
-    border-top: 17.5em solid transparent;
-    border-top-left-radius: 49% 50%;
-    border-bottom-left-radius: 49% 50%;
-    margin-top: 16%;
-    margin-left: 74%;
-}
-
 /*Second Banner*/
 .Banners #secondBanner {
     width: 100%;
@@ -181,11 +154,24 @@ p {
     z-index: 2;
     position: relative;
 }
-.pie{
-  background: blue;
-  width:5vh;
-  height:5vh;
-  border-radius: 50%;
+svg{
+  height: 70vh;
+  width:40vw;
+  position: relative;
+}
+rect{
+  height:70vh;
+  width:40vw;
+  position: relative;
+}
+.highcharts-series-group{
+  height:70vh;
+  width:40vw;
+   position: relative;
+}
+path{
+  width: 20vw;
+  height: 35vh;
 }
 /*Third Banner*/
 .Banners #thirdBanner {
