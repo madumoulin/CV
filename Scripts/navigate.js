@@ -6,12 +6,13 @@ $(document).ready(function (){
                         scrollTop: banner
                     }, 1500);
         }
+        var firstBanner= parseInt($("#firstBanner").offset().top);
+        var secondBanner= parseInt($("#secondBanner").offset().top);
+        var thirdBanner= parseInt($("#thirdBanner").offset().top);
+        var fourthBanner= parseInt($("#fourthBanner").offset().top);
             $("#bot").click(function (){
                 var currentY =parseInt(window.pageYOffset);
-                var firstBanner= parseInt($("#firstBanner").offset().top);
-                var secondBanner= parseInt($("#secondBanner").offset().top);
-                var thirdBanner= parseInt($("#thirdBanner").offset().top);
-                var fourthBanner= parseInt($("#fourthBanner").offset().top);
+                
                 switch(true){
                     case (currentY>=firstBanner && currentY <secondBanner):
                         myScroll(secondBanner);
