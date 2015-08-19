@@ -7,7 +7,7 @@ $(document).ready(function (){
                     }, 1500);
         }
             $("#bot").click(function (){
-                var currentY =parseFloat(window.pageYOffset);
+                var currentY =parseInt(window.pageYOffset);
                 var firstBanner= parseInt($("#firstBanner").offset().top);
                 var secondBanner= parseInt($("#secondBanner").offset().top);
                 var thirdBanner= parseInt($("#thirdBanner").offset().top);
