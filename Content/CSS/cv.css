@@ -52,14 +52,12 @@ p {
     margin-right: auto;
     margin-left: auto;
     width: 40%;
-    min-height: 20vh;
     background: #bdc3c7;
     border-radius: 4%;
     position: relative;
 }
 #text1.text {
-    padding: 2% 2% 0 2%;
-    top: 50%;
+    padding: 2% 2% 2% 2%;
 }
 #text2.text {
     left: 75%;
@@ -79,15 +77,10 @@ p {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    width: 40vh;
-    height: 40vh;
+    width: 25vw;
+    height: 25vw;
     position: relative;
     left: 0;
-    /* right: 0; */
-    
-    top: -11vh;
-    /* left: 39%; */
-    
     margin-left: auto;
     margin-right: auto;
 }
@@ -132,19 +125,8 @@ p {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.arrow {
-    opacity: 0.2;
-    position: relative;
-    z-index: 3;
-}
-#down.arrow {
-    width: 15%;
-    border-top: 101px solid transparent;
-    border-top-right-radius: 49% 50%;
-    border-top-left-radius: 49% 50%;
-    margin-left: 15%;
-    margin-top: 73%;
-}
+
+
 /*Second Banner*/
 .Banners #secondBanner {
     width: 100%;
@@ -153,25 +135,12 @@ p {
     background-size: 100% 100%;
     z-index: 2;
     position: relative;
+    padding: 2% 2% 2% 2%;
 }
-svg{
-  height: 70vh;
-  width:40vw;
-  position: relative;
-}
-rect{
-  height:70vh;
-  width:40vw;
-  position: relative;
-}
-.highcharts-series-group{
-  height:70vh;
-  width:40vw;
-   position: relative;
-}
-path{
-  width: 20vw;
-  height: 35vh;
+
+.semiDonut{
+    width: 50vh;
+    height: 80vh;
 }
 /*Third Banner*/
 .Banners #thirdBanner {
@@ -180,7 +149,7 @@ path{
     background-size: 100% 100%;
     z-index: 2;
     position: relative;
-    padding-top: 5vh;
+    padding-top: 5vw;
 }
 .Banners #thirdBanner h1{
   color: #bdc3c7;
@@ -194,23 +163,22 @@ path{
     margin-left: auto;
 }
 .verticalline{
-    width: 1vh;
-    height: 18vh;
-    border-right: solid 2vh #bdc3c7;
+    width: 1vw;
+    height: 18vw;
+    border-right: solid 2vw #bdc3c7;
     margin-right: auto;
     margin-left: auto;
-    margin-top: -1vh;
+    margin-top: -1vw;
 }
 .dot{
-    width: 5vh;
-    height: 5vh;
+    width: 5vw;
+    height: 5vw;
     background-color:#c0392b;
     border-radius: 50%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: -1vh;
-    margin-bottom: 1vh;
-    
+    margin-top: -1vw;
+    margin-bottom: 1vw;
 }
 
 .Banners #fourthBanner{
@@ -224,15 +192,15 @@ path{
 #hobbiestable,#hobbiestable tr,#hobbiestable td {
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
     margin-top: 13vh;
 }
 #hobbiestable p{
   text-align:center;
+  font-size:2vw;
 }
 .hobimages {
-    height: 25vh;
-    width: 25vh;
+    height: 25vw;
+    width: 25vw;
 
 }
 #coding {
