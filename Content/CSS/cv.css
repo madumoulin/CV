@@ -52,21 +52,12 @@ p {
     margin-right: auto;
     margin-left: auto;
     width: 40%;
-<<<<<<< HEAD
-    min-height: 20vh;
-=======
->>>>>>> gh-pages
     background: #bdc3c7;
     border-radius: 4%;
     position: relative;
 }
 #text1.text {
-<<<<<<< HEAD
-    padding: 2% 2% 0 2%;
-    top: 50%;
-=======
     padding: 2% 2% 2% 2%;
->>>>>>> gh-pages
 }
 #text2.text {
     left: 75%;
@@ -86,22 +77,10 @@ p {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-<<<<<<< HEAD
-    width: 40vh;
-    height: 40vh;
-    position: relative;
-    left: 0;
-    /* right: 0; */
-    
-    top: -11vh;
-    /* left: 39%; */
-    
-=======
     width: 25vw;
     height: 25vw;
     position: relative;
     left: 0;
->>>>>>> gh-pages
     margin-left: auto;
     margin-right: auto;
 }
@@ -146,49 +125,7 @@ p {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-<<<<<<< HEAD
-.arrow {
-    opacity: 0.2;
-    position: relative;
-    z-index: 3;
-}
-#down.arrow {
-    width: 15%;
-    border-top: 101px solid transparent;
-    border-top-right-radius: 49% 50%;
-    border-top-left-radius: 49% 50%;
-    margin-left: 15%;
-    margin-top: 73%;
-}
-#up.arrow {
-    width: 15%;
-    border-top: 8em solid black;
-    border-bottom-right-radius: 49% 50%;
-    border-bottom-left-radius: 49% 50%;
-    opacity: 0.2;
-    position: absolute;
-    left: 42.5%;
-    top: 3%;
-}
-#left.arrow {
-    width: 6%;
-    border-top: 17.5em solid transparent;
-    border-top-right-radius: 49% 50%;
-    border-bottom-right-radius: 49% 50%;
-    top: 10%;
-    left: 39%;
-}
-#right.arrow {
-    width: 26%;
-    border-top: 17.5em solid transparent;
-    border-top-left-radius: 49% 50%;
-    border-bottom-left-radius: 49% 50%;
-    margin-top: 16%;
-    margin-left: 74%;
-}
-=======
 
->>>>>>> gh-pages
 
 /*Second Banner*/
 .Banners #secondBanner {
@@ -198,14 +135,6 @@ p {
     background-size: 100% 100%;
     z-index: 2;
     position: relative;
-<<<<<<< HEAD
-}
-.pie{
-  background: blue;
-  width:5vh;
-  height:5vh;
-  border-radius: 50%;
-=======
     
 }
 
@@ -235,7 +164,6 @@ p {
 }
 .grades{
     display: flex;
->>>>>>> gh-pages
 }
 /*Third Banner*/
 .Banners #thirdBanner {
@@ -244,11 +172,7 @@ p {
     background-size: 100% 100%;
     z-index: 2;
     position: relative;
-<<<<<<< HEAD
-    padding-top: 5vh;
-=======
     padding-top: 5vw;
->>>>>>> gh-pages
 }
 .Banners #thirdBanner h1{
   color: #bdc3c7;
@@ -262,18 +186,6 @@ p {
     margin-left: auto;
 }
 .verticalline{
-<<<<<<< HEAD
-    width: 1vh;
-    height: 18vh;
-    border-right: solid 2vh #bdc3c7;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: -1vh;
-}
-.dot{
-    width: 5vh;
-    height: 5vh;
-=======
     width: 1vw;
     height: 18vw;
     border-right: solid 2vw #bdc3c7;
@@ -284,19 +196,12 @@ p {
 .dot{
     width: 5vw;
     height: 5vw;
->>>>>>> gh-pages
     background-color:#c0392b;
     border-radius: 50%;
     margin-right: auto;
     margin-left: auto;
-<<<<<<< HEAD
-    margin-top: -1vh;
-    margin-bottom: 1vh;
-    
-=======
     margin-top: -1vw;
     margin-bottom: 1vw;
->>>>>>> gh-pages
 }
 
 .Banners #fourthBanner{
@@ -310,26 +215,15 @@ p {
 #hobbiestable,#hobbiestable tr,#hobbiestable td {
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-    border: 1px solid black;
-=======
->>>>>>> gh-pages
     margin-top: 13vh;
 }
 #hobbiestable p{
   text-align:center;
-<<<<<<< HEAD
-}
-.hobimages {
-    height: 25vh;
-    width: 25vh;
-=======
   font-size:2vw;
 }
 .hobimages {
     height: 25vw;
     width: 25vw;
->>>>>>> gh-pages
 
 }
 #coding {
