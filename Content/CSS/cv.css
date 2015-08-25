@@ -52,14 +52,21 @@ p {
     margin-right: auto;
     margin-left: auto;
     width: 40%;
+<<<<<<< HEAD
     min-height: 20vh;
+=======
+>>>>>>> gh-pages
     background: #bdc3c7;
     border-radius: 4%;
     position: relative;
 }
 #text1.text {
+<<<<<<< HEAD
     padding: 2% 2% 0 2%;
     top: 50%;
+=======
+    padding: 2% 2% 2% 2%;
+>>>>>>> gh-pages
 }
 #text2.text {
     left: 75%;
@@ -79,6 +86,7 @@ p {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
+<<<<<<< HEAD
     width: 40vh;
     height: 40vh;
     position: relative;
@@ -88,6 +96,12 @@ p {
     top: -11vh;
     /* left: 39%; */
     
+=======
+    width: 25vw;
+    height: 25vw;
+    position: relative;
+    left: 0;
+>>>>>>> gh-pages
     margin-left: auto;
     margin-right: auto;
 }
@@ -132,6 +146,7 @@ p {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+<<<<<<< HEAD
 .arrow {
     opacity: 0.2;
     position: relative;
@@ -171,6 +186,9 @@ p {
     margin-top: 16%;
     margin-left: 74%;
 }
+=======
+
+>>>>>>> gh-pages
 
 /*Second Banner*/
 .Banners #secondBanner {
@@ -180,12 +198,44 @@ p {
     background-size: 100% 100%;
     z-index: 2;
     position: relative;
+<<<<<<< HEAD
 }
 .pie{
   background: blue;
   width:5vh;
   height:5vh;
   border-radius: 50%;
+=======
+    
+}
+
+.semiDonut{
+    width: 100%;
+    height: 80vh;
+}
+#skills{
+    width: 100%;
+    height: 80vh;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: -8vh;
+}
+#skills td{
+    width:20vw;
+}
+#
+.grade{
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: #c0392b;
+    border-radius: 50%;
+    border: solid 0.3vw white;
+   margin-right: 2.5vw;
+
+}
+.grades{
+    display: flex;
+>>>>>>> gh-pages
 }
 /*Third Banner*/
 .Banners #thirdBanner {
@@ -194,7 +244,11 @@ p {
     background-size: 100% 100%;
     z-index: 2;
     position: relative;
+<<<<<<< HEAD
     padding-top: 5vh;
+=======
+    padding-top: 5vw;
+>>>>>>> gh-pages
 }
 .Banners #thirdBanner h1{
   color: #bdc3c7;
@@ -208,6 +262,7 @@ p {
     margin-left: auto;
 }
 .verticalline{
+<<<<<<< HEAD
     width: 1vh;
     height: 18vh;
     border-right: solid 2vh #bdc3c7;
@@ -218,13 +273,30 @@ p {
 .dot{
     width: 5vh;
     height: 5vh;
+=======
+    width: 1vw;
+    height: 18vw;
+    border-right: solid 2vw #bdc3c7;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -1vw;
+}
+.dot{
+    width: 5vw;
+    height: 5vw;
+>>>>>>> gh-pages
     background-color:#c0392b;
     border-radius: 50%;
     margin-right: auto;
     margin-left: auto;
+<<<<<<< HEAD
     margin-top: -1vh;
     margin-bottom: 1vh;
     
+=======
+    margin-top: -1vw;
+    margin-bottom: 1vw;
+>>>>>>> gh-pages
 }
 
 .Banners #fourthBanner{
@@ -238,15 +310,26 @@ p {
 #hobbiestable,#hobbiestable tr,#hobbiestable td {
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
     border: 1px solid black;
+=======
+>>>>>>> gh-pages
     margin-top: 13vh;
 }
 #hobbiestable p{
   text-align:center;
+<<<<<<< HEAD
 }
 .hobimages {
     height: 25vh;
     width: 25vh;
+=======
+  font-size:2vw;
+}
+.hobimages {
+    height: 25vw;
+    width: 25vw;
+>>>>>>> gh-pages
 
 }
 #coding {
