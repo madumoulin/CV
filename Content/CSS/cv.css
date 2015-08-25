@@ -135,12 +135,35 @@ p {
     background-size: 100% 100%;
     z-index: 2;
     position: relative;
-    padding: 2% 2% 2% 2%;
+    
 }
 
 .semiDonut{
-    width: 50vh;
+    width: 100%;
     height: 80vh;
+}
+#skills{
+    width: 100%;
+    height: 80vh;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: -8vh;
+}
+#skills td{
+    width:20vw;
+}
+#
+.grade{
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: #c0392b;
+    border-radius: 50%;
+    border: solid 0.3vw white;
+   margin-right: 2.5vw;
+
+}
+.grades{
+    display: flex;
 }
 /*Third Banner*/
 .Banners #thirdBanner {
