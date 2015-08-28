@@ -166,26 +166,27 @@ p {
 .Banners #thirdBanner h1{
   color: #bdc3c7;
 }
+
 #start{
-    background-color: #bdc3c7;
-    border-radius: 50%;
     width: 15vh;
     height: 15vh;
-    margin-right: auto;
-    margin-left: auto;
-    box-shadow: 0vw 0vw 0.1vw 0.1vw white;
+}
+#start p{
+    font-size: 2vw;
+    
 }
 .verticalline{
     width: 2vw;
-    height: 18vw;
+    height: 180vh;
     background: #bdc3c7;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 48.5vw;
     margin-top: -2vw;
+    position: absolute;
 }
 .dot{
-    width: 5vw;
-    height: 5vw;
+    width: 3vw;
+    height: 3vw;
     background-color:#c0392b;
     border-radius: 50%;
     margin-right: auto;
@@ -193,6 +194,28 @@ p {
     margin-top: -2vw;
     margin-bottom: 1vw;
     position: relative;
+    margin-top: 2vh;
+}
+
+.bigdot{
+    background-color: #bdc3c7;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0vw 0vw 0.1vw 0.1vw white;
+    padding:  2vh 0% 0% 2.5vh;
+}
+.bigdot p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0vh;
+    padding-top: 2vh;
+}
+.year{
+    width: 10vh;
+    height: 10vh;
+    padding: 0;
+    
 }
 
 .Banners #fourthBanner{
