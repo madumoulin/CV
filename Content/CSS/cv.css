@@ -17,27 +17,26 @@ h1 {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    text-shadow: 0 0.1vw white;
 }
 p {
     margin: 0;
     padding: 0;
-    font-size: 2vw;
+    font-size:2vw;
 }
 .Banners {
     width: 100%;
     height: 100%;
     display: block;
 }
-#overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background-color: #EEE;
-    opacity: 0.2;
+
+.title{
+  
+    color:  #34495e;
+    font-weight: bold;
+    text-shadow: 0 0 0.1vw white;
 }
+
 /* First Banner*/
 
 .Banners #firstBanner {
@@ -55,20 +54,17 @@ p {
     background: #bdc3c7;
     border-radius: 4%;
     position: relative;
+    margin-top:11vh;
 }
 #text1.text {
     padding: 2% 2% 2% 2%;
 }
-#text2.text {
-    left: 75%;
-}
-#text3.text {
-    left: 50%;
-}
+
 #resume {
     width: 100%;
     height: 100%;
     position: relative;
+    padding-top: 2vh;
 }
 /*Photo & Menu*/
 #photo {
@@ -77,12 +73,13 @@ p {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
     position: relative;
     left: 0;
     margin-left: auto;
     margin-right: auto;
+
 }
 /* Glyphicon*/
 .myglif {
@@ -91,20 +88,7 @@ p {
     color: #c0392b;
     opacity: 2;
 }
-#top.myglif {
-    top: 1%;
-    left: 50%;
-}
-#left.myglif {
-    top: 25%;
-    left: 35.5%;
-    background: red;
-}
-#right.myglif {
-    top: 25%;
-    right: 33.5%;
-    background: blue;
-}
+
 #bot.myglif {
     position: fixed;
     text-align: center;
@@ -112,7 +96,8 @@ p {
     z-index: 10;
     width: 100%;
     height: 16px;
-    top: 87%
+    top: 87%;
+    text-shadow: 0 0 0.1vw white;
 }
 .glyphicon {
     position: relative;
@@ -134,37 +119,41 @@ p {
     background-color: #bdc3c7;
     background-size: 100% 100%;
     z-index: 2;
-    position: relative;
-    
+    position: relative;  
 }
 
-.semiDonut{
-    width: 100%;
-    height: 80vh;
-}
-#skills{
-    width: 100%;
-    height: 80vh;
-    margin-left:auto;
+    #skills {
+    width: 70%;
+    height: 55vh;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: -8vh;
+    margin-top: 5vh;
+    display: inline-flex;
+    }
+    #skills .title p {
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 3vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    }
+.mycolumn{
+     width: 57%;
+     margin-left: 20vw;
 }
-#skills td{
-    width:20vw;
-}
-#
 .grade{
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
     background-color: #c0392b;
     border-radius: 50%;
-    border: solid 0.3vw white;
-   margin-right: 2.5vw;
-
+    border: solid 0.6vw white;
+    margin-right: 2.5vw;
 }
 .grades{
     display: flex;
 }
+
+
 /*Third Banner*/
 .Banners #thirdBanner {
     width: 100%;
@@ -184,14 +173,15 @@ p {
     height: 15vh;
     margin-right: auto;
     margin-left: auto;
+    box-shadow: 0vw 0vw 0.1vw 0.1vw white;
 }
 .verticalline{
-    width: 1vw;
+    width: 2vw;
     height: 18vw;
-    border-right: solid 2vw #bdc3c7;
+    background: #bdc3c7;
     margin-right: auto;
     margin-left: auto;
-    margin-top: -1vw;
+    margin-top: -2vw;
 }
 .dot{
     width: 5vw;
@@ -200,8 +190,9 @@ p {
     border-radius: 50%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: -1vw;
+    margin-top: -2vw;
     margin-bottom: 1vw;
+    position: relative;
 }
 
 .Banners #fourthBanner{
@@ -212,19 +203,29 @@ p {
     z-index: 2;
     position: relative;
 }
-#hobbiestable,#hobbiestable tr,#hobbiestable td {
+#hobbiestable{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 13vh;
+    margin-top: 10vw;
 }
 #hobbiestable p{
   text-align:center;
   font-size:2vw;
+    margin-left: auto;
+    margin-right: auto;
+   width: 23vh;
 }
-.hobimages {
-    height: 25vw;
-    width: 25vw;
-
+.containerTitle{
+    display: inline-flex;
+    
+}
+.containerImages{
+    display: inline-flex;
+    
+}
+.hobimages{
+    width: 17vw;
+    height: 20vh;
 }
 #coding {
     background: url(../Images/coding.png)no-repeat;
@@ -252,18 +253,3 @@ p {
     background-size: 80% 80%;
     background-position: center;
 }
-
-.features .content #cssmenu {
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-    height: 10px;
-}
-.show {
-    width: 15%;
-    height: 100%;
-    background-color: #2980b9;
-    z-index: 20;
-    opacity: 0.2;
-}
-/*# sourceMappingURL=cv.css.map */
