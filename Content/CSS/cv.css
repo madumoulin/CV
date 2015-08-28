@@ -22,7 +22,7 @@ h1 {
 p {
     margin: 0;
     padding: 0;
-    font-size: 2vw;
+    font-size:2vw;
 }
 .Banners {
     width: 100%;
@@ -64,7 +64,7 @@ p {
     width: 100%;
     height: 100%;
     position: relative;
-    padding-top: 20vh;
+    padding-top: 2vh;
 }
 /*Photo & Menu*/
 #photo {
@@ -73,8 +73,8 @@ p {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
     position: relative;
     left: 0;
     margin-left: auto;
@@ -122,26 +122,32 @@ p {
     position: relative;  
 }
 
-#skills{
-    width: 100%;
-    height: 80vh;
-    margin-left:auto;
+    #skills {
+    width: 70%;
+    height: 55vh;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: -8vh;
-}
-#skills td{
-    width:20vw;
-}
-#skills .title p{
-      padding-left: 5vw;
+    margin-top: 5vh;
+    display: inline-flex;
+    }
+    #skills .title p {
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 3vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    }
+.mycolumn{
+     width: 50%;
+     margin-left: 25%;
 }
 .grade{
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
     background-color: #c0392b;
     border-radius: 50%;
-    border: solid 0.3vw white;
-   margin-right: 2.5vw;
+    border: solid 0.6vw white;
+    margin-right: 2.5vw;
 }
 .grades{
     display: flex;
@@ -197,20 +203,16 @@ p {
     z-index: 2;
     position: relative;
 }
-#hobbiestable,#hobbiestable tr,#hobbiestable td {
+#hobbiestable{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 13vh;
+    margin-top: 28%;
 }
 #hobbiestable p{
   text-align:center;
   font-size:2vw;
 }
-.hobimages {
-    height: 20vw;
-    width: 20vw;
 
-}
 #coding {
     background: url(../Images/coding.png)no-repeat;
     background-size: 80% 80%;
@@ -237,21 +239,213 @@ p {
     background-size: 80% 80%;
     background-position: center;
 }
-
-.features .content #cssmenu {
+@media screen and (max-width:1024px)  {
+    /*banner II */
+    #skills {
+    width: 70%;
+    height: 55vh;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
-    height: 10px;
+    margin-top: 0vh;
+    font-size: 4vw;
+    display: inline-flex;
 }
-.show {
-    width: 15%;
-    height: 100%;
-    background-color: #2980b9;
-    z-index: 20;
-    opacity: 0.2;
+/*banner IV*/
+#hobbiestable {
+    display: table;
+    margin-left: 0;
+    margin-top: 10%;
 }
-@media screen and (max-height: 364px) {
+.containerImages {
+    margin-left: 5vw;
+    margin-right: auto;
+    margin-top: 0;
+    display: -webkit-inline-box;
+}
+    .hobimages {
+    height: 15vw;
+    width: 15vw;
+    }
+    .containerTitle{  
+    padding: 0;
+    position: relative;
+    display:inline-flex;
+  }
+     #hobbiestable p {
+        font-size: 3vw;
+    padding-top: 1vw;
+    margin-bottom: 1vw;
+    }
+}
+
+/*IPad Portrait*/
+@media screen and (max-width:768px) {
+    h1 {
+    color: #c0392b;
+    font-size: 9vw;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    text-shadow: 0 0.1vw white;
+    padding-top: 0;
+}
+/*banner II*/
+ 
+     #skills {
+    width: 70%;
+    height: 55vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0vh;
+    font-size: 4vw;
+    display: block;
+    }
+.containerTitle.mycolumn{
+    margin-left: 0%;
+ }
+ /*banner IV*/
+    #hobbiestable {
+        display: table;
+        margin-left: 20vw;
+        margin-top: 10%;
+    }
+    #hobbiestable p {
+        font-size: 5vw;
+    padding-top: 1vw;
+    margin-bottom: 1vw;
+    }
+    .hobimages {
+    height: 15vw;
+    width: 15vw;
+    }
+    .containerImages{
+    margin-left: 5vw;
+    margin-right: auto;
+    margin-top: 0;
+    display:table-cell;
+    }
+    .containerTitle{  
+    padding: 0;
+    position: absolute;
+    display:block;
+  }
+    .containerTitle .title {
+    padding: 2.1vh;
+  }
+  .containerTitle .title p {
+     height: 11vw;
+  }
+
+}
+@media screen and (max-width:736px) {}
+@media screen and (max-width:667px) {}
+@media screen and (max-width:600px) {}
+@media screen and (max-width:568px) {}
+@media screen and (max-width:414px) {}
+@media screen and (max-width:384px) {}
+@media screen and (max-width:375px) {
+        h1 {
+    color: #c0392b;
+    font-size: 10vw;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    text-shadow: 0 0.1vw white;
+    padding-top: 0;
+    }
+    /*banner II*/
+  
+    
+    #skills .title p {
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 4vw;
+    margin-bottom: 0; 
+    }
+    .grade {
+    width: 3.5vw;
+    height: 3.5vw;
+    background-color: #c0392b;
+    border-radius: 50%;
+    border: solid 0.7vw white;
+    margin-right: 2.5vw;
+    }
+    p {
+    font-size:4vw;
+    }
+    /*banner IV*/
+    .hobimages {
+    height: 17vw;
+    width: 17vw;
+    }
+#hobbiestable p {
+    font-size:4vw;
+  }
+    .containerTitle{  
+    padding: 0;
+    position: absolute;
+    display:block;
+  }
+    .containerTitle .title {
+    padding: 2.1vh;
+  }
+  .containerTitle .title p {
+    height: 7vh;
+    margin-top: 2vh;
+}
+    
+
+}
+@media screen and (min-width:320px) {}
+@media screen and (min-width:240px) {}
+/*IPAD VERTICAL*/
+@media screen and (min-width:420px) {
+
+/*Iphone5,Iphone6,Iphone6 plume vertical
+@media screen and (min-width:330px)and (max-height: 672px) {
+}
+
+creepy
+@media screen and (max-width:240px)and (max-height: 320px) {
+     p {
+    font-size:4vw;
+  }
+    .hobimages {
+    height: 17vw;
+    width: 17vw;
+}
+#hobbiestable p {
+    font-size:4vw;
+  }
+   .containerTitle{
+    display: -webkit-inline-box;
+    margin-left: 0;
+
+}
+.containerTitle .title p{
+    height: 15vw;
+    width: 15vw;
+    margin-left: 4vw;
+}
+.containerImages{
+    display: -webkit-inline-box;
+    margin-left:0;
+}
+.hobimages {
+    height: 15vw;
+    width: 15vw;
+    margin-left:4vw; 
+
+}
+#hobbiestable{
+    margin-left: 0;
+
+}
+.containerTitle {
+    position: relative;
+}
+}
+@media screen and (max-height: 364px)  {
     #photo {
     position: absolute;
     width:20vw;
@@ -261,5 +455,6 @@ p {
     #resume{
         margin-right: auto; 
     }
+  
 }
 /*# sourceMappingURL=cv.css.map */

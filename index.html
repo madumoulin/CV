@@ -4,7 +4,7 @@
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
-      <meta name="HandheldFriendly" content="true">
+      <meta name="HandheldFriendly" content="divue">
       <title> Maxence Dumoulin</title>
       <link href="Content/CSS/bootstrap.css" rel="stylesheet" />
       <link href="Content/CSS/cv.css" rel="stylesheet" />
@@ -15,7 +15,7 @@
       <script type="text/javascript" src="https://www.google.com/jsapi"></script>
    
    </head>
-   <body class="Banners" ng-controller="CVCtrl">
+   <body class="Banners" ng-condivoller="CVCtrl">
       <!--<div id="overlay"></div>
          <div class="caroussel" ng-mouseover="hoverIn('previous')" ng-mouseleave="hoverOut('previous')">
                  <div id="previous" ng-show="hoverEditPrevious"><span class="glyphicon myglif glyphicon-menu-left" ></span></div>
@@ -30,54 +30,58 @@
             
          </div>
       </div>
-         <div id="secondBanner" >
-         
-                <h1>My skills</h1>
+<div id="secondBanner" >
+<h1>My skills</h1>
           
-<table id="skills">
-   <tr>
-      <td><div class="title"><p>MVC.NET</p></div></td>
-      <td>
-         <div class="grades">
-            <div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div>
-         </div>
-      </td>
-      <td><div class="title"><p>ASP.NET</p></div></td>
-      <td>
-         <div class="grades">
-            <div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div>
-         </div>
-      </td>
-   </tr>
-   <tr>
-      <td><div class="title"><p>HTML/CSS</p></div></td>
-      <td>
-         <div class="grades">
-            <div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div>
-         </div>
-      </td>
-      <td><div class="title"><p>JS</p></div></td>
-      <td>
-         <div class="grades">
-            <div class="grade"></div><div class="grade"></div><div class="grade"></div>
-         </div>
-      </td>
-   </tr>
-   <tr>
-      <td><div class="title" ><p>Versionning</p></div></td>
-      <td>
-         <div class="grades">
-            <div class="grade"></div><div class="grade"></div><div class="grade"></div>
-         </div></td>
-      <td><div class="title"><p>Management</p></div></td>
-      <td>
-         <div class="grades">
-            <div class="grade"></div><div class="grade"></div>
-         </div>
-      </td>
-   </tr>         
-       </table>     
-      </div>
+<div id="skills">
+   <div class="mycolumn">
+<div class="title">
+   <p>MVC.NET</p>
+</div>
+<div class="grades">
+   <div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div>
+</div>
+<div class="title">
+   <p>ASP.NET</p>
+</div>
+<div class="grades">
+   <div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div>
+</div>
+<div class="title">
+   <p>HTML/CSS</p>
+</div>
+<div class="grades">
+   <div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div>
+</div>
+</div>
+<div class="mycolumn">
+<div class="title ">
+   <p>JS</p>
+</div>
+      
+<div class="grades ">
+<div class="grade"></div><div class="grade"></div><div class="grade"></div>
+</div>
+
+ 
+<div class="title " >
+   <p>Versionning</p>
+</div>
+
+<div class="grades ">
+   <div class="grade"></div><div class="grade"></div><div class="grade"></div>
+</div>
+<div class="title ">
+   <p>Management</p>
+</div>
+
+<div class="grades ">
+   <div class="grade"></div><div class="grade"></div>
+</div>
+
+</div>         
+</div>
+</div>
       <div id="thirdBanner" >
         <h1>Career paths</h1>
         <div id="start"></div>
@@ -93,22 +97,22 @@
         <div class="text" id="like">
                <h1>My hobbies</h1>
             </div>
-            <table id="hobbiestable">
-               <tr>
-                  <td class="hobimages" id="coding"></td>
-                  <td class="hobimages" id="bowling" ></td>
-                  <td class="hobimages" id="meals" ></td>
-                  <td class="hobimages" id="music" ></td>
-                  <td class="hobimages" id="football" ></td>
-               </tr>
-               <tr>
-                <td class="title"><p>Coding</p></td>
-                <td class="title"><p>Bowling</p></td>
-                <td class="title"><p>Cooking</p></td>
-                <td class="title"><p>Music</p></td>
-                <td class="title"><p>Sport</p></td>
-               </tr>
-            </table>
+            <div id="hobbiestable">
+               <div class="containerImages mycolumn">
+                  <div class="hobimages" id="coding"></div>
+                  <div class="hobimages" id="bowling" ></div>
+                  <div class="hobimages" id="meals" ></div>
+                  <div class="hobimages" id="music" ></div>
+                  <div class="hobimages" id="football" ></div>
+               </div>
+               <div class="containerTitle mycolumn" >
+                <div class="title"><p>Coding</p></div>
+                <div class="title"><p>Bowling</p></div>
+                <div class="title"><p>Cooking</p></div>
+                <div class="title"><p>Music</p></div>
+                <div class="title"><p>Sport</p></div>
+               </div>
+            </div>
          </div>
       </div>
       <!--
