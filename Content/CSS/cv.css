@@ -22,7 +22,7 @@ h1 {
 p {
     margin: 0;
     padding: 0;
-    font-size: 2vw;
+    font-size:2vw;
 }
 .Banners {
     width: 100%;
@@ -64,7 +64,7 @@ p {
     width: 100%;
     height: 100%;
     position: relative;
-    padding-top: 20vh;
+    padding-top: 2vh;
 }
 /*Photo & Menu*/
 #photo {
@@ -73,8 +73,8 @@ p {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
     position: relative;
     left: 0;
     margin-left: auto;
@@ -122,26 +122,32 @@ p {
     position: relative;  
 }
 
-#skills{
-    width: 100%;
-    height: 80vh;
-    margin-left:auto;
+    #skills {
+    width: 70%;
+    height: 55vh;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: -8vh;
-}
-#skills td{
-    width:20vw;
-}
-#skills .title p{
-      padding-left: 5vw;
+    margin-top: 5vh;
+    display: inline-flex;
+    }
+    #skills .title p {
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 3vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    }
+.mycolumn{
+     width: 57%;
+     margin-left: 20vw;
 }
 .grade{
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
     background-color: #c0392b;
     border-radius: 50%;
-    border: solid 0.3vw white;
-   margin-right: 2.5vw;
+    border: solid 0.6vw white;
+    margin-right: 2.5vw;
 }
 .grades{
     display: flex;
@@ -197,19 +203,29 @@ p {
     z-index: 2;
     position: relative;
 }
-#hobbiestable,#hobbiestable tr,#hobbiestable td {
+#hobbiestable{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 13vh;
+    margin-top: 10vw;
 }
 #hobbiestable p{
   text-align:center;
   font-size:2vw;
+    margin-left: auto;
+    margin-right: auto;
+   width: 23vh;
 }
-.hobimages {
-    height: 20vw;
-    width: 20vw;
-
+.containerTitle{
+    display: inline-flex;
+    
+}
+.containerImages{
+    display: inline-flex;
+    
+}
+.hobimages{
+    width: 17vw;
+    height: 20vh;
 }
 #coding {
     background: url(../Images/coding.png)no-repeat;
@@ -237,29 +253,3 @@ p {
     background-size: 80% 80%;
     background-position: center;
 }
-
-.features .content #cssmenu {
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-    height: 10px;
-}
-.show {
-    width: 15%;
-    height: 100%;
-    background-color: #2980b9;
-    z-index: 20;
-    opacity: 0.2;
-}
-@media screen and (max-height: 364px) {
-    #photo {
-    position: absolute;
-    width:20vw;
-    height:20vw;
-    margin-left: 5%;
-    }
-    #resume{
-        margin-right: auto; 
-    }
-}
-/*# sourceMappingURL=cv.css.map */
