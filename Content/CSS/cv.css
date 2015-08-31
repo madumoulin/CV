@@ -253,7 +253,7 @@ p {
 .nothing{
     background: transparent;
     box-shadow: none;
-    cursor: pointer;
+    cursor: default;
 }
 #first{
     top: 35vh;
