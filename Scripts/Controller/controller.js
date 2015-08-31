@@ -1,35 +1,23 @@
 var CVApp= angular.module('CVApp',['ngAnimate']);
 
 CVApp.controller('CVCtrl',function($scope){
-   $scope.hoverIn= function(element){
-    switch(element){
-        case "next": this.hoverEditNext=true;
-                    break;
-        case "previous": this.hoverEditPrevious=true;
-                    break;
-        default:break;
-    };
-   }
-   $scope.hoverOut=function (element) {
+   $scope.display=function (element) {
      switch(element){
-        case "next": this.hoverEditNext=false;
+      case "first": $scope.first =!$scope.first;
                     break;
-        case "previous": this.hoverEditPrevious=false;
+      case "GIE": $scope.GIE =!$scope.GIE;
+                    break;
+      case "diploma": $scope.diploma =!$scope.diploma;
+                    break;
+      case "GOA": $scope.GOA =!$scope.GOA;
+                    break;
+      case "ITCE": $scope.ITCE =!$scope.ITCE;
+                    break;
+      case "SIEN": $scope.SIEN =!$scope.SIEN;
+                    break;
+       case "end": $scope.end =!$scope.end;
                     break;
         default:break;
     };
    };
     });
-/*.directive('hoverClass',function(){
-    return{
-    
-        link:function(scope,element){
-            element.on('mouseenter',function(){
-            element.addClass('show');
-            })
-            element.on('mouseleave',function(){
-                element.removeClass('show');
-            })
-        }
-    }
-})*/

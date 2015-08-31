@@ -133,7 +133,7 @@ p {
     #skills .title p {
     padding-left: 0;
     margin-left: 0;
-    font-size: 3vw;
+    font-size: 2vw;
     margin-top: 4vh;
     margin-bottom: 4vh;
     }
@@ -177,7 +177,7 @@ p {
 }
 .verticalline{
     width: 2vw;
-    height: 180vh;
+    height: 120vh;
     background: #bdc3c7;
     margin-right: auto;
     margin-left: 48.5vw;
@@ -189,12 +189,14 @@ p {
     height: 3vw;
     background-color:#c0392b;
     border-radius: 50%;
+    box-shadow: 0vw 0vw 0.1vw 0.1vw white;
     margin-right: auto;
     margin-left: auto;
     margin-top: -2vw;
     margin-bottom: 1vw;
     position: relative;
     margin-top: 2vh;
+    cursor: pointer;
 }
 
 .bigdot{
@@ -220,30 +222,17 @@ p {
 
 .careerText {
     width: 25vw;
-    height: 17vh;
     background-color: #bdc3c7;
     position: absolute;
-    padding: 1vh 1vh 1vh 1vh;
-    
+    padding: 1vh 2vh 2vh 2vh;
+    text-align: justify;
+ 
 }
 .careerText.left{
     left: 10vw;
 }
 .careerText.right{
     right: 10vw;
-}
-
-#GIE{
-    top: 70vh;
-}
-#GOA{
-    top:100vh;
-}
-#ITCE{
-    top:125vh;
-}
-#SIEN{
-    top:155vh;
 }
 .careerText h2{
     color: #34495e;
@@ -256,7 +245,34 @@ p {
 .careerText p{
     font-size: 1vw;
 }
-
+.nothing{
+    background: transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
+#first{
+    top: 35vh;
+}
+#GIE{
+    top: 60vh;
+}
+#diploma{
+    top: 70vh;
+}
+#GOA{
+    top:85vh;
+}
+#ITCE{
+    top:100vh;
+}
+#SIEN{
+    top:125vh;
+}
+#end{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .Banners #fourthBanner{
    width: 100%;
