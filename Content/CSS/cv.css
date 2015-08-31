@@ -22,7 +22,7 @@ h1 {
 p {
     margin: 0;
     padding: 0;
-    font-size:2vw;
+    font-size:4vh;
 }
 .Banners {
     width: 100%;
@@ -31,10 +31,14 @@ p {
 }
 
 .title{
-  
     color:  #34495e;
     font-weight: bold;
     text-shadow: 0 0 0.1vw white;
+    margin-right: 0;
+    margin-left: 0; 
+    text-align:center;
+    font-size:2vw;
+    width: 15vw;
 }
 
 /* First Banner*/
@@ -136,9 +140,10 @@ p {
     font-size: 2vw;
     margin-top: 4vh;
     margin-bottom: 4vh;
+    text-align: start;
     }
 .mycolumn{
-     width: 57%;
+     width: 130vh;;
      margin-left: 20vw;
 }
 .grade{
@@ -226,7 +231,7 @@ p {
     position: absolute;
     padding: 1vh 2vh 2vh 2vh;
     text-align: justify;
- 
+     border-radius: 4%;
 }
 .careerText.left{
     left: 10vw;
@@ -286,49 +291,41 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10vw;
+    width:70vw;
 }
-#hobbiestable p{
-  text-align:center;
-  font-size:2vw;
-    margin-left: auto;
-    margin-right: auto;
-   width: 23vh;
-}
-.containerTitle{
+
+.containerHobbies{
     display: inline-flex;
-    
-}
-.containerImages{
-    display: inline-flex;
-    
+    margin-left:0;
+    width:100%
 }
 .hobimages{
     width: 17vw;
-    height: 20vh;
+    height: 30vh;
 }
 #coding {
     background: url(../Images/coding.png)no-repeat;
-    background-size: 80% 80%;
+    background-size: 100% 100%;
     background-position: center;
   
 }
 #bowling{
     background: url(../Images/bowling.png)no-repeat;
-    background-size: 80% 80%;
+    background-size: 100% 100%;
     background-position: center;
 }
 #meals{
     background: url(../Images/meals.png)no-repeat;
-    background-size: 80% 80%;
+    background-size: 100% 100%;
     background-position: center;
 }
 #music{
     background: url(../Images/music.png)no-repeat;
-    background-size: 80% 80%;
+    background-size: 100% 100%;
     background-position: center;
 }
 #football {
     background: url(../Images/football.png) no-repeat;
-    background-size: 80% 80%;
+    background-size: 100% 100%;
     background-position: center;
 }
