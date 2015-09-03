@@ -28,6 +28,9 @@ p {
     width: 100%;
     height: 100%;
     display: block;
+     height: 100vh;
+       width: 100%;
+        position: relative;
 }
 
 .title{
@@ -44,9 +47,24 @@ p {
 /* First Banner*/
 
 .Banners #firstBanner {
-    position: relative;
+   
+    background: url(../Images/background2.jpg)no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+     
+}
+#overlay{
+    background: #34495e;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    filter: blur(1px);
+     -webkit-filter: blur(1px);
+     -moz-filter: blur(1px);
+     -ms-filter: blur(1px);
+     -o-filter: blur(1px);
+    position: absolute;
+    opacity: 0.3;
+    
 }
 .Banners #firstBanner p {
     text-align: center;
@@ -55,10 +73,12 @@ p {
     margin-right: auto;
     margin-left: auto;
     width: 40%;
-    background: #bdc3c7;
     border-radius: 4%;
     position: relative;
     margin-top:11vh;
+    color: white;
+    text-shadow: 0vw 0.1vw 0.1vw black;
+    
 }
 #text1.text {
     padding: 2% 2% 2% 2%;
@@ -83,7 +103,7 @@ p {
     left: 0;
     margin-left: auto;
     margin-right: auto;
-
+    border: 0.1vw solid white;
 }
 /* Glyphicon*/
 .myglif {
@@ -118,8 +138,6 @@ p {
 
 /*Second Banner*/
 .Banners #secondBanner {
-    width: 100%;
-    height: 100vh;
     background-color: #bdc3c7;
     background-size: 100% 100%;
     z-index: 2;
@@ -201,7 +219,6 @@ p {
     margin-bottom: 1vw;
     position: relative;
     margin-top: 2vh;
-    cursor: pointer;
 }
 
 .bigdot{
@@ -253,7 +270,6 @@ p {
 .nothing{
     background: transparent;
     box-shadow: none;
-    cursor: default;
 }
 #first{
     top: 35vh;
@@ -280,7 +296,7 @@ p {
 }
 
 .Banners #fourthBanner{
-   width: 100%;
+
     height: 100vh;
     background-color: #bdc3c7;
     background-size: 100% 100%;
@@ -328,4 +344,16 @@ p {
     background: url(../Images/football.png) no-repeat;
     background-size: 100% 100%;
     background-position: center;
+}
+.error {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.submissionMessage {
+  background-color: rgba(255,255,255, 0.2);
+  border-radius: 5px;
+  padding: 12px;
+  text-align: center;
+  display: block;
+  box-shadow: 0 0 2px white;
+  width: 60%;
 }

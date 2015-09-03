@@ -11,16 +11,18 @@
       <script src="Scripts/jquery-2.1.3.js"></script>
       <script src="Scripts/angular/angular.js"></script>
       <script src="Scripts/angular/angular-animate.js"></script>
+      <script type="text/javascript" src="Scripts/promise-tracker.js"></script>
       <script src="Scripts/Controller/controller.js"></script>
       <script type="text/javascript" src="https://www.google.com/jsapi"></script>
    
    </head>
    <body class="Banners" ng-controller="CVCtrl">
 <!-- Arrow down -->
-      <span id="bot" class="glyphicon myglif glyphicon-menu-down"></span>
+      <span id="bot" class="glyphicon myglif glyphicon-menu-down"  ng-click="myScroll()"></span>
 <!-- Arrow down -->
-      <div id="firstBanner" >
+      <div  class="Banners" id="firstBanner" >
 <!-- Photo & Resume -->
+<div id="overlay"></div>
          <div id="resume">
             <div class="menu" id="photo"></div>
             <div class="text" id="text1">
@@ -30,7 +32,7 @@
          </div>
 <!-- Photo & Resume -->
       </div>
-<div id="secondBanner" >
+<div class="Banners" id="secondBanner" >
    
 <!-- Skills & grades -->
 <h1>My skills</h1>       
@@ -84,57 +86,57 @@
 </div>
 <!-- Skills & grades -->
 </div>
-      <div id="thirdBanner" >
+      <div class="Banners" id="thirdBanner" >
 <!-- Career path-->
         <h1>Career paths</h1>
         <div class="bigdot" id="start"><p>2011</p></div>
         <div class="verticalline"></div>
-        <div class="dot" ng-click="display('first')"></div>
+        <div class="dot"></div>
         <div class="bigdot dot year"><p>2012</p></div>
-        <div class="dot" ng-click="display('GIE')"></div>
-        <div class="dot" ng-click="display('diploma')"></div>
+        <div class="dot" ></div>
+        <div class="dot" ></div>
         <div class="bigdot dot year"><p>2013</p></div>
-        <div class="dot" ng-click="display('GOA')"></div>
-        <div class="dot" ng-click="display('ITCE')"></div>
+        <div class="dot" ></div>
+        <div class="dot" ></div>
         <div class="bigdot dot year"><p>2014</p></div>
-        <div class="dot" ng-click="display('SIEN')"></div>
+        <div class="dot" ></div>
         <div class="bigdot dot year"><p>2015</p></div>
         <div class="dot nothing"></div>
         <div class="bigdot dot year"><p>2016</p></div>
-        <div class="dot" ng-click="display('end')"></div>
+        <div class="dot"></div>
  <!-- Career path-->
   <!-- Career text-->
-   <div ng-show="first" class="careerText right" id="first">
+   <div  class="careerText right" id="first">
    <h2>Formation</h2>
    <h3>Exia.Cesi</h3>
    <p> First year at Exia.Cesi.</p>
   </div>
-  <div ng-show="GIE" class="careerText left" id="GIE">
+  <div class="careerText left" id="GIE">
    <h2>GIE Innovation Santé (Lille / 3mois)</h2>
    <h3>Chef de Projet junior</h3>
    <p> En charge de l’analyse & la refonte du processus de gestion des utilisateurs de la SMENO, SMEREP et MEP (mutuelles étudiantes).</p>
   </div>
-   <div ng-show="diploma" class="careerText right" id="diploma">
+   <div class="careerText right" id="diploma">
    <h2>Fomation</h2>
    <h3>Diploma</h3>
 <p>Analyst programmer.</p>
 </div>
-   <div  ng-show="GOA" class="careerText left" id="GOA">
+   <div class="careerText left" id="GOA">
    <h2>Progise (Sars et Rosières / 3 mois)</h2>
    <h3>Développement de l’ERP : GOA</h3>
 <p>Développement du module de configuration de l’application, d’export des données et d’optimisation des modules de gestion.</p>
 </div>
-   <div  ng-show="ITCE" class="careerText right" id="ITCE">
+   <div class="careerText right" id="ITCE">
    <h2>IT-CE (Seclin / 3 mois)</h2>
    <h3>Réévaluation des indices fonciers</h3>
 <p>Implémentation du service de réévaluation des indices fonciers au sein du Système d’Information.</p>
 </div>
-   <div  ng-show="SIEN" class="careerText left" id="SIEN">
+   <div class="careerText left" id="SIEN">
    <h2>SIEN (Paris / 6 mois)</h2>
    <h3>Developper .NET</h3>
 <p>Refonte du site Iminent.com et autres missions de développement sur les produits de l'entreprise. </p>
 </div>
-   <div  ng-show="end" class="careerText " id="end">
+   <div  class="careerText " id="end">
    <h2>Formation</h2>
    <h3>Diploma</h3>
    <p>S.I. Manager</p>
@@ -142,7 +144,7 @@
    <!-- Career text-->
         
       </div>
-      <div id="fourthBanner">
+      <div class="Banners" id="fourthBanner">
 <!-- Hobbies -->
         <div class="text" id="like">
                <h1>My hobbies</h1>
@@ -164,9 +166,20 @@
                </div>
             </div>
          </div>
+      <!-- Hobbies -->
       </div>
-<!-- Hobbies -->
+      <div class="Banners" id="fifthBanner">
+  <form ng-submit="submitForm()" ng-controller="FormController" novalidate>
+  <label for="name">Name</label>
+  <input type="text" name="name" ng-model="formData.name" ng-class="{'error' : errorName}">
+  <label for="email">E-mail</label>
+  <input type="email" name="email" ng-model="formData.email" ng-class="{'error' : errorEmail}">
+  <label for="message">Message</label>
+  <textarea name="message" ng-class="{'error' : errorTextarea}" ng-model="formData.message" cols="30" rows="10"></textarea>
+  <input type="submit" value="Send!" name="submit">
+  <div ng-class="{'submissionMessage' : submission}" ng-bind="submissionMessage"></div>
+</form>
+
       </div>
-   <script src="Scripts/navigate.js"></script>
    </body>
 </html>
