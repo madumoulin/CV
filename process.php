@@ -1,6 +1,6 @@
 <?php
 header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods:  POST');
+header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
 $errors = array(); // array to hold validation errors
 $data = array(); // array to pass back data
 // validate the variables ======================================================
