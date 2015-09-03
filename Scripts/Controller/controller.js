@@ -1,6 +1,6 @@
-var CVApp= angular.module('CVApp',['ngAnimate','promise-tracker']);
+var CVApp= angular.module('CVApp',['ngAnimate']);
 
-CVApp.controller('CVCtrl',function($scope, $http,promiseTracker, $log, $timeout){
+CVApp.controller('CVCtrl',function($scope, $http, $log, $timeout){
    $scope.nextBanner=
    function (banner){
             $('html, body').animate({
