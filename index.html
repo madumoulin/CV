@@ -15,13 +15,13 @@
       <script type="text/javascript" src="https://www.google.com/jsapi"></script>
    
    </head>
-   <body class="Banners" ng-controller="CVCtrl">
+   <body ng-controller="CVCtrl">
 <!-- Arrow down -->
       <span id="bot" class="glyphicon myglif glyphicon-menu-down"  ng-click="myScroll()"></span>
 <!-- Arrow down -->
       <div  class="Banners" id="firstBanner" >
 <!-- Photo & Resume -->
-<div id="overlay"></div>
+<div class="overlay"></div>
          <div id="resume">
             <div class="menu" id="photo"></div>
             <div class="text" id="text1">
@@ -32,7 +32,6 @@
 <!-- Photo & Resume -->
       </div>
 <div class="Banners" id="secondBanner" >
-   
 <!-- Skills & grades -->
 <h1>My skills</h1>       
 <div id="skills">
@@ -86,6 +85,7 @@
 <!-- Skills & grades -->
 </div>
       <div class="Banners" id="thirdBanner" >
+         <div class="overlay"></div>
 <!-- Career path-->
         <h1>Career paths</h1>
         <div class="bigdot" id="start"><p>2011</p></div>
@@ -144,6 +144,7 @@
         
       </div>
       <div class="Banners" id="fourthBanner">
+ 
 <!-- Hobbies -->
         <div class="text" id="like">
                <h1>My hobbies</h1>
@@ -168,17 +169,16 @@
       <!-- Hobbies -->
       </div>
       <div class="Banners" id="fifthBanner">
-  <form ng-submit="submitForm()" ng-controller="FormController" novalidate>
-  <label for="name">Name</label>
-  <input type="text" name="name" ng-model="formData.name" ng-class="{'error' : errorName}">
-  <label for="email">E-mail</label>
-  <input type="email" name="email" ng-model="formData.email" ng-class="{'error' : errorEmail}">
-  <label for="message">Message</label>
-  <textarea name="message" ng-class="{'error' : errorTextarea}" ng-model="formData.message" cols="30" rows="10"></textarea>
-  <input type="submit" value="Send!" name="submit">
-  <div ng-class="{'submissionMessage' : submission}" ng-bind="submissionMessage"></div>
-</form>
+         <div class="overlay"></div>
+<div>
+   <h1>Contact Me</h1>
+</div>
 
+<div id="blocContact" >
+         <div class="logo" id="address"></div>
+         <div class="logo" id="phone"></div>
+         <div class="logo" id="mobile"></div>
+</div>
       </div>
    </body>
 </html>
