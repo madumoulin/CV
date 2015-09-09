@@ -1,184 +1,316 @@
 <!DOCTYPE html>
-<html ng-app="CVApp">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
-      <meta name="HandheldFriendly" content="divue">
-      <title> Maxence Dumoulin</title>
-      <link href="Content/CSS/bootstrap.css" rel="stylesheet" />
-      <link href="Content/CSS/cv.css" rel="stylesheet" />
-      <script src="Scripts/jquery-2.1.3.js"></script>
-      <script src="Scripts/angular/angular.js"></script>
-      <script src="Scripts/angular/angular-animate.js"></script>
-      <script src="Scripts/Controller/controller.js"></script>
-      <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-   
-   </head>
-   <body ng-controller="CVCtrl">
-<!-- Arrow down -->
-      <span id="bot" class="glyphicon myglif glyphicon-menu-down"  ng-click="myScroll()"></span>
-<!-- Arrow down -->
-      <div  class="Banners" id="firstBanner" >
-<!-- Photo & Resume -->
-<div class="overlay"></div>
-         <div id="resume">
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta content=
+    "width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=no"
+    name="viewport">
+    <meta content="divue" name="HandheldFriendly">
+
+    <title>Maxence Dumoulin</title>
+    <link href="Content/CSS/bootstrap.css" rel="stylesheet">
+    <link href="Content/CSS/cv.css" rel="stylesheet">
+    <script src="Scripts/jquery-2.1.3.js"></script>
+    <script src="Scripts/angular/angular.js"></script>
+    <script src="Scripts/angular/angular-animate.js"></script>
+    <script src="Scripts/Controller/controller.js"></script>
+</head>
+
+<body>
+    <!-- Arrow down -->
+    <span class="glyphicon myglif glyphicon-menu-down" id="bot"></span> 
+    <!-- Arrow down -->
+
+    <div class="Banners" id="firstBanner">
+        <!-- Photo & Resume -->
+
+        <div class="overlay"></div>
+
+        <div id="resume">
             <div class="menu" id="photo"></div>
+
             <div class="text" id="text1">
-               <p> Hello! My name is Maxence Dumoulin and I am full-stack developper.</p>
+                <p>Hello! My name is Maxence Dumoulin and I am full-stack
+                developper.</p>
             </div>
-            
-         </div>
-<!-- Photo & Resume -->
-      </div>
-<div class="Banners" id="secondBanner" >
-<!-- Skills & grades -->
-<h1>My skills</h1>       
-<div id="skills">
-   <div class="mycolumn">
-<div class="title">
-   <p>MVC.NET</p>
-</div>
-<div class="grades">
-   <div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div>
-</div>
-<div class="title">
-   <p>ASP.NET</p>
-</div>
-<div class="grades">
-   <div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div>
-</div>
-<div class="title">
-   <p>HTML/CSS</p>
-</div>
-<div class="grades">
-   <div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div><div class="grade"></div>
-</div>
-</div>
-<div class="mycolumn">
-<div class="title ">
-   <p>JS</p>
-</div>
-      
-<div class="grades ">
-<div class="grade"></div><div class="grade"></div><div class="grade"></div>
-</div>
+        </div><!-- Photo & Resume -->
+    </div>
 
- 
-<div class="title " >
-   <p>Versionning</p>
-</div>
+    <div class="Banners" id="secondBanner">
+        <!-- Skills & grades -->
 
-<div class="grades ">
-   <div class="grade"></div><div class="grade"></div><div class="grade"></div>
-</div>
-<div class="title ">
-   <p>Management</p>
-</div>
+        <h1>My skills</h1>
 
-<div class="grades ">
-   <div class="grade"></div><div class="grade"></div>
-</div>
+        <div id="skills">
+            <div class="mycolumn">
+                <div class="title">
+                    <p>MVC.NET</p>
+                </div>
 
-</div>         
-</div>
-<!-- Skills & grades -->
-</div>
-      <div class="Banners" id="thirdBanner" >
-         <div class="overlay"></div>
-<!-- Career path-->
+                <div class="grades">
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+                </div>
+
+                <div class="title">
+                    <p>ASP.NET</p>
+                </div>
+
+                <div class="grades">
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+                </div>
+
+                <div class="title">
+                    <p>HTML/CSS</p>
+                </div>
+
+                <div class="grades">
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+                </div>
+            </div>
+
+            <div class="mycolumn">
+                <div class="title">
+                    <p>JS</p>
+                </div>
+
+                <div class="grades">
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+                </div>
+
+                <div class="title">
+                    <p>Versionning</p>
+                </div>
+
+                <div class="grades">
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+                </div>
+
+                <div class="title">
+                    <p>Management</p>
+                </div>
+
+                <div class="grades">
+                    <div class="grade"></div>
+
+                    <div class="grade"></div>
+                </div>
+            </div>
+        </div><!-- Skills & grades -->
+    </div>
+
+    <div class="Banners" id="thirdBanner">
+        <div class="overlay"></div><!-- Career path-->
+
         <h1>Career paths</h1>
-        <div class="bigdot" id="start"><p>2011</p></div>
-        <div class="verticalline"></div>
-        <div class="dot"></div>
-        <div class="bigdot dot year"><p>2012</p></div>
-        <div class="dot" ></div>
-        <div class="dot" ></div>
-        <div class="bigdot dot year"><p>2013</p></div>
-        <div class="dot" ></div>
-        <div class="dot" ></div>
-        <div class="bigdot dot year"><p>2014</p></div>
-        <div class="dot" ></div>
-        <div class="bigdot dot year"><p>2015</p></div>
-        <div class="dot nothing"></div>
-        <div class="bigdot dot year"><p>2016</p></div>
-        <div class="dot"></div>
- <!-- Career path-->
-  <!-- Career text-->
-   <div  class="careerText right" id="first">
-   <h2>Formation</h2>
-   <h3>Exia.Cesi</h3>
-   <p> First year at Exia.Cesi.</p>
-  </div>
-  <div class="careerText left" id="GIE">
-   <h2>GIE Innovation Santé (Lille / 3mois)</h2>
-   <h3>Chef de Projet junior</h3>
-   <p> En charge de l’analyse & la refonte du processus de gestion des utilisateurs de la SMENO, SMEREP et MEP (mutuelles étudiantes).</p>
-  </div>
-   <div class="careerText right" id="diploma">
-   <h2>Fomation</h2>
-   <h3>Diploma</h3>
-<p>Analyst programmer.</p>
-</div>
-   <div class="careerText left" id="GOA">
-   <h2>Progise (Sars et Rosières / 3 mois)</h2>
-   <h3>Développement de l’ERP : GOA</h3>
-<p>Développement du module de configuration de l’application, d’export des données et d’optimisation des modules de gestion.</p>
-</div>
-   <div class="careerText right" id="ITCE">
-   <h2>IT-CE (Seclin / 3 mois)</h2>
-   <h3>Réévaluation des indices fonciers</h3>
-<p>Implémentation du service de réévaluation des indices fonciers au sein du Système d’Information.</p>
-</div>
-   <div class="careerText left" id="SIEN">
-   <h2>SIEN (Paris / 6 mois)</h2>
-   <h3>Developper .NET</h3>
-<p>Refonte du site Iminent.com et autres missions de développement sur les produits de l'entreprise. </p>
-</div>
-   <div  class="careerText " id="end">
-   <h2>Formation</h2>
-   <h3>Diploma</h3>
-   <p>S.I. Manager</p>
-  </div>
-   <!-- Career text-->
-        
-      </div>
-      <div class="Banners" id="fourthBanner">
- 
-<!-- Hobbies -->
-        <div class="text" id="like">
-               <h1>My hobbies</h1>
-            </div>
-            <div id="hobbiestable">
-               <div class="containerHobbies ">
-                  <div class="hobimages" id="coding"></div>
-                  <div class="hobimages" id="bowling" ></div>
-                  <div class="hobimages" id="meals" ></div>
-                  <div class="hobimages" id="music" ></div>
-                  <div class="hobimages" id="football" ></div>
-               </div>
-               <div class="containerHobbies" >
-                <div class="title"><p>Coding</p></div>
-                <div class="title"><p>Bowling</p></div>
-                <div class="title"><p>Cooking</p></div>
-                <div class="title"><p>Music</p></div>
-                <div class="title"><p>Sport</p></div>
-               </div>
-            </div>
-         </div>
-      <!-- Hobbies -->
-      </div>
-      <div class="Banners" id="fifthBanner">
-         <div class="overlay"></div>
-<div>
-   <h1>Contact Me</h1>
-</div>
 
-<div id="blocContact" >
-         <div class="logo" id="address"></div>
-         <div class="logo" id="phone"></div>
-         <div class="logo" id="mobile"></div>
-</div>
-      </div>
-   </body>
+        <div class="bigdot" id="start">
+            <p>2011</p>
+        </div>
+
+        <div class="verticalline"></div>
+
+        <div class="dot"></div>
+
+        <div class="bigdot dot year">
+            <p>2012</p>
+        </div>
+
+        <div class="dot"></div>
+
+        <div class="dot"></div>
+
+        <div class="bigdot dot year">
+            <p>2013</p>
+        </div>
+
+        <div class="dot"></div>
+
+        <div class="dot"></div>
+
+        <div class="bigdot dot year">
+            <p>2014</p>
+        </div>
+
+        <div class="dot"></div>
+
+        <div class="bigdot dot year">
+            <p>2015</p>
+        </div>
+
+        <div class="dot nothing"></div>
+
+        <div class="bigdot dot year">
+            <p>2016</p>
+        </div>
+
+        <div class="dot"></div><!-- Career path-->
+        <!-- Career text-->
+
+        <div class="careerText right" id="first">
+            <h2>Formation</h2>
+
+            <h3>Exia.Cesi</h3>
+
+            <p>First year at Exia.Cesi.</p>
+        </div>
+
+        <div class="careerText left" id="GIE">
+            <h2>GIE Innovation Santé (Lille / 3mois)</h2>
+
+            <h3>Project manager (Junior)</h3>
+
+            <p>Analysis & reworks of the process to create new user
+            for SMENO, SMEREP & MEP (mutual fund for students).</p>
+        </div>
+
+        <div class="careerText right" id="diploma">
+            <h2>Fomation</h2>
+
+            <h3>Diploma</h3>
+
+            <p>Analyst programmer.</p>
+        </div>
+
+        <div class="careerText left" id="GOA">
+            <h2>Progise (Sars et Rosières / 3 mois)</h2>
+
+            <h3>Work on E.R.P. : GOA</h3>
+
+            <p>Développement du module de configuration de l’application,
+            d’export des données et d’optimisation des modules de gestion.</p>
+        </div>
+
+        <div class="careerText right" id="ITCE">
+            <h2>IT-CE (Seclin / 3 mois)</h2>
+
+            <h3>Reassessment of land taxes's index</h3>
+            <p>New service to evaluate the land taxes's index for credits.</p>
+        </div>
+
+        <div class="careerText left" id="SIEN">
+            <h2>SIEN (Paris / 6 mois)</h2>
+
+            <h3>.NET Developer </h3>
+
+            <p>Rework from the scratch of Iminent.com & others missions on 
+            SIEN's products.</p>
+        </div>
+
+        <div class="careerText" id="end">
+            <h2>Formation</h2>
+
+            <h3>Diploma</h3>
+
+            <p>S.I. Manager</p>
+        </div><!-- Career text-->
+    </div>
+
+    <div class="Banners" id="fourthBanner">
+        <!-- Hobbies -->
+
+        <div class="text" id="like">
+            <h1>My hobbies</h1>
+        </div>
+
+        <div id="hobbiestable">
+            <div class="containerHobbies">
+                <div class="hobimages" id="coding"></div>
+
+                <div class="hobimages" id="bowling"></div>
+
+                <div class="hobimages" id="meals"></div>
+
+                <div class="hobimages" id="music"></div>
+
+                <div class="hobimages" id="football"></div>
+            </div>
+
+            <div class="containerHobbies">
+                <div class="title">
+                    <p>Coding</p>
+                </div>
+
+                <div class="title">
+                    <p>Bowling</p>
+                </div>
+
+                <div class="title">
+                    <p>Cooking</p>
+                </div>
+
+                <div class="title">
+                    <p>Music</p>
+                </div>
+
+                <div class="title">
+                    <p>Sport</p>
+                </div>
+            </div>
+        </div>
+    </div><!-- Hobbies -->
+<!-- Contact Me -->
+    <div class="Banners" id="fifthBanner">
+        <div class="overlay"></div>
+
+        <div>
+            <h1>Contact Me</h1>
+        </div>
+
+        <div id="blocContact">
+            <div class="bloc">
+                <div class="logo" id="address"></div>
+
+                <div class="text">
+                    8 rue du moulinet Arras
+                </div>
+            </div><br>
+
+            <div class="bloc">
+                <div class="logo" id="mobile"></div>
+
+                <div class="text">
+                    +33 6 01 19 23 35
+                </div>
+            </div><br>
+
+            <div class="bloc">
+                <div class="logo" id="mail"></div>
+
+                <div class="text">
+                    maxence.dumoulin@viacesi.fr
+                </div>
+            </div><br>
+        </div>
+    </div>
+<!-- Contact Me -->
+</body>
 </html>
