@@ -57,11 +57,11 @@ p {
     background: #34495e;
     width: 100%;
     height: 100%;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -ms-filter: blur(1px);
-    -o-filter: blur(1px);
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    -o-filter: blur(2px);
     position: absolute;
     opacity: 0.3;
 }
@@ -90,8 +90,8 @@ p {
 /*Photo & Menu*/
 
 #photo {
-    background: url(https://lh3.googleusercontent.com/-soJVy0YeCK8/UoyvxTpCRwI/AAAAAAAAACk/2XgmpXmAin0/w140-h140-p/20%2Bnov.%2B2013%2B13%253A48%253A53.jpg) no-repeat;
-    background-size: 100% 100%;
+    background: url(../Images/moi.jpg) no-repeat;
+    
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -101,7 +101,14 @@ p {
     left: 0;
     margin-left: auto;
     margin-right: auto;
-    border: 0.1vw solid white;
+    border: 1vw solid #c0392b;
+    -webkit-transform:rotate(90deg); 
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg); 
+    -ms-transform:rotate(90deg); 
+    transform:rotate(90deg);
+    background-size: 125% 100%;
+    box-shadow: white 0.1vh 0.1vh 0.1vh 0.5vh;
 }
 /* Glyphicon*/
 
@@ -177,7 +184,8 @@ p {
 #thirdBanner {
     width: 100%;
     height: 200vh;
-    background-size: 100% 100%;
+    background: url(../Images/cloud.jpg) no-repeat;
+    background-size: 101% 100%;
     z-index: 2;
     position: relative;
 }
@@ -190,9 +198,10 @@ p {
     width: 15vh;
     height: 15vh;
     padding-top: 1vh;
+     color:#34495e;
 }
 #start p {
-    font-size: 2.8vw;
+    font-size: 2.7vw;
 }
 .verticalline {
     width: 2vw;
@@ -215,6 +224,7 @@ p {
     margin-bottom: 1vw;
     position: relative;
     margin-top: 2vh;
+    color:#34495e;
 }
 .bigdot {
     background-color: #bdc3c7;
@@ -376,6 +386,7 @@ p {
 }
 .bloc {
     display: inline-flex;
+    margin-top: 3vh;
 }
 .text {
     margin-left: 2vw;
