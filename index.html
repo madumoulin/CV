@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="CVApp">
 <head>
-    <meta content="text/html; charset=utf-8" >
+    <meta content="text/html; charset=utf-8"  http-equiv="Content-Type" >
     <meta http-equiv="Cache-control" content="public">
     <META NAME="ROBOTS" CONTENT="ALL">
     <META NAME="KEYWORDS" 
@@ -17,8 +17,6 @@ CONTENT=".NET">
     "width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=no"
     name="viewport">
     <meta content="true" name="HandheldFriendly">
-    
-
     <title>Maxence Dumoulin</title>
     <link href="Content/CSS/bootstrap.min.css" rel="stylesheet">
     <link href="Content/CSS/cv.css" rel="stylesheet">
@@ -29,9 +27,9 @@ CONTENT=".NET">
     <link rel="shortcut icon" type="image/x-icon" href="/CV/favicon.ico?">
 </head>
 
-<body>
+<body ng-controller="CVCtrl">
     <!-- Arrow down -->
-    <span class="glyphicon myglif glyphicon-menu-down" id="bot"></span> 
+    <span class="glyphicon myglif glyphicon-menu-down" ng-click="myScroll()" id="bot"></span> 
     <!-- Arrow down -->
 
     <div class="Banners" id="firstBanner">
