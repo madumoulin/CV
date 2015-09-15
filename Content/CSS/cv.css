@@ -253,10 +253,10 @@ p {
     border-radius: 4%;
 }
 .careerText.left {
-    left: 10vw;
+    left: 6vw;
 }
 .careerText.right {
-    right: 10vw;
+    right: 6vw;
 }
 .careerText h2 {
     color: #34495e;
@@ -394,3 +394,226 @@ p {
     text-shadow: 0 0.1vw #34495e;
     font-size: 3vw;
 }
+/*IPad landscape*/
+@media screen and (max-width:1024px)  {
+    .verticalline {
+    width: 2vw;
+    height: 100vh;
+    background: #bdc3c7;
+    margin-right: auto;
+    margin-left: 48vw;
+    margin-top: -2vw;
+    position: absolute;
+}
+#start {
+    width: 10vw;
+}
+#first {
+    top: 25vh;
+}
+#GIE {
+    top: 40vh;
+}
+#diploma {
+    top: 55vh;
+}
+#GOA {
+    top: 65vh;
+    
+}
+#ITCE{
+  top: 75vh;  
+}
+#SIEN {
+    top: 103vh;
+}
+
+    
+}
+/*IPad Portrait*/
+@media screen and (max-width:768px) {
+   .dot {
+    width: 4vw;
+    height: 4vw;
+}
+.year {
+    width: 10vh;
+    height: 10vh;
+    padding: 0;
+}
+    #start {
+    width: 18vw;
+}
+
+.verticalline {
+    width: 2.5vw;
+    height: 95vh;
+    margin-left: 47.6vw;
+}
+.careerText h2 {
+    font-size: 1.5vw;
+}
+.careerText h3 {
+    font-size: 1.5vw;
+}
+.careerText p {
+    font-size: 1.5vw;
+}
+.hobimages {
+    width: 15vw;
+    height: 17vh;
+}
+#hobbiestable {
+    margin-top: 21vh;
+}
+.title p{
+        font-size: 2.5vw;
+}
+}
+@media screen and (max-width:736px) {
+    .verticalline {
+    width: 2.5vw;
+    height: 135vh;
+    margin-left: 47.6vw;
+}
+    .careerText {
+    width: 30vw;
+}
+#start {
+    width: 7vw;
+}
+#GOA {
+    top: 80vh;
+}
+#ITCE {
+    top: 100vh;
+}
+#diploma {
+    top: 65vh;
+}
+#SIEN {
+    top: 125vh;
+}
+.hobimages {
+    height: 25vh;
+}
+}
+
+@media screen and (max-width:600px) {
+.verticalline {
+    width: 2.5vw;
+    height: 120vh;
+    margin-left: 47.3vw;
+}
+    #start {
+    width: 10vw;
+}
+#first {
+    top: 25vh;
+}
+#GIE {
+    top: 40vh;
+}
+#diploma {
+    top: 55vh;
+}
+#GOA {
+    top: 75vh;
+    
+}
+#ITCE{
+    top: 87vh;
+}
+#SIEN {
+    top: 110vh;
+}
+}
+@media screen and (max-width:568px) {
+#start {
+    width: 7vw;
+}
+#first {
+    top: 30vh;
+}
+#diploma {
+    top: 65vh;
+}
+#ITCE {
+    top: 100vh;
+}
+#SIEN {
+    top: 130vh;
+}
+#GIE {
+    top: 50vh;
+}
+#GOA {
+    top: 85vh;
+    
+}
+.verticalline {
+    margin-left: 47.3vw;
+        height: 135vh;
+}
+    
+}
+@media screen and (max-width:414px) {
+#thirdBanner {
+    height: 135vh;
+}   
+#start {
+    width: 24vw;
+}
+#first {
+    top: 20vh;
+}
+#GIE {
+    top: 25vh;
+}
+#diploma {
+    top: 40vh;
+}
+#GOA {
+    top: 50vh;
+    
+}
+#ITCE{
+    top: 63vh;
+}
+#SIEN {
+    top: 80vh;
+}
+.verticalline {
+    margin-left: 46vw;
+    height: 90vh;
+    width: 3.2vw;
+}
+.careerText h2 {
+    font-size: 2.5vw;
+}
+.careerText h3 {
+    font-size: 2.5vw;
+}
+.careerText p {
+    font-size: 2.5vw;
+}
+.careerText  {
+    width: 37vw;
+}
+.careerText.left {
+    left:1vw;
+}
+.careerText.right  {
+    right:1vw;
+}
+.hobimages {
+    height: 16vh;
+}
+.title p {
+    font-size: 3vw;
+}
+}
+@media screen and (max-width:384px) {}
+@media screen and (max-width:375px) {}
+@media screen and (min-width:320px) {}
+@media screen and (min-width:240px) {}
